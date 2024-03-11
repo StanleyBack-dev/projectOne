@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Descrypto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Bem Vindo ao Crypto 🔐</h1>
+            <label for="text">Digite seu texto:</label>
+            <textarea id="text" rows="1" cols="20"></textarea>
+            <div class="options">
+                <button onclick="encrypt()">Crypto</button>
+                <button onclick="decrypt()">Decrypto</button>
+            </div>
+            <label for="result">Resultado:</label>
+            <textarea id="result" rows="4" cols="50" readonly></textarea>
+            <button onclick="copyResult()">Copiar Resultado</button>
+            <p id="errorMessage" style="color: red;"></p>
+        </div>
+        <footer>
+            <div class="container">
+                <p>Desenvolvido by <a href="https://stanleydevtech.netlify.app" target="_blank">Stanley Rodrigues</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
